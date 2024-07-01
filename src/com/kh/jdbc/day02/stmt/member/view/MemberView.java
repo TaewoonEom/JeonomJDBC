@@ -81,7 +81,7 @@ public class MemberView {
 					// DB에서 가져온 값 저장해야 되니까 member = mController.printOneMember(memberId);
 					member = mController.printOneMember(memberId);
 					// DB에서 데이터를 가져왔는지 체크해야 되니까 if(member != null)
-					// 데이터가 없다면 member는 null일 것임. 
+					// 데이터가 없다면 member는 null일 것임.
 					if(member != null) {
 						// 입력받은 아이디로 DB에서 삭제해야 되니까 removeMember();
 						// 컨트롤러로 전달해야 되니까 removeMember(memberId);
